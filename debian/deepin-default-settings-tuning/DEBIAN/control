@@ -1,0 +1,15 @@
+Package: deepin-default-settings-tuning
+Source: deepin-default-settings
+Version: 2014~12-34~trusty
+Architecture: all
+Maintainer: Zhang Cheng <zhangcheng@linuxdeepin.com>
+Installed-Size: 371
+Conflicts: deepin-default-settings (<< 2014~03-24)
+Section: admin
+Priority: optional
+Description: Deepin default settings tuning
+  This package config the system to Deepin default. Most of the
+  settings are only available during making the iso/creating new
+  user.
+  .
+  Split from deepin-default-settings

@@ -1,0 +1,14 @@
+Package: deepin-default-settings
+Version: 2014~12-34~trusty
+Architecture: all
+Maintainer: Zhang Cheng <zhangcheng@linuxdeepin.com>
+Installed-Size: 955
+Depends: deepin-artwork, deepin-default-gsettings, deepin-default-settings-tuning
+Suggests: binfmt-support
+Conflicts: chrome-default-settings, deepin-default-settings (<< 2014~03-24), deepin-gtk-theme (<< 14.07+20140919162552)
+Section: admin
+Priority: optional
+Description: Deepin default settings
+  This package config the system to Deepin default. Most of the
+  settings are only available during making the iso/creating new
+  user.
